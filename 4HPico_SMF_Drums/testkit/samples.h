@@ -1,0 +1,7 @@
+#include "Silence.h"
+#include "Kick01.h"
+#include "Clap01.h"
+#include "Snare.h"
+#include "Clhat01.h"
+#include "Oh50.h"
+#include "sampledefs.h"
