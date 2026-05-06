@@ -11,7 +11,7 @@ The 4HPico requires an RP2350 processor since most DSP apps are fairly compute i
 
 Dependencies:
 
-4HPico library from https://github.com/rheslip/4HPico-Sketches/tree/main/lib - install it in your Arduino/Libraries directory
+4HPico library from https://github.com/rheslip/4HPico-DSP-Sketches/tree/main/lib/4HPicolib - install it in your Arduino/Libraries directory
 
 Adafruit Neopixel library
 
