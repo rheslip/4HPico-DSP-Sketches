@@ -13,6 +13,8 @@ Dependencies:
 
 4HPico library from https://github.com/rheslip/4HPico-DSP-Sketches/tree/main/lib/4HPicolib - install it in your Arduino/Libraries directory
 
-Adafruit Neopixel library
+Adafruit Graphics library
+
+Adafruit SSD1306 graphics driver
 
 Some sketches use my fork of ElectroSmith's DaisySP library https://github.com/rheslip/DaisySP_Teensy
