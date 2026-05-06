@@ -1,6 +1,6 @@
 **Standard MIDI file Drum Machine for the 4HPico DSP module**
 
-This one is pretty cool if I do say so myself. Grids is nice but has a fixed selection of 32 step drum patterns that it creates variations on. With SMF Drums you load MIDI drum loops to the onboard file system and it plays them back synced to the external clock input. MIDI files, drum samples, levels, and panning can be selected with the encoder and OLED display menu system. Loops can be as long as you want - the limitation is how much flash and RAM the RP2350 module has for storage. Fortunately MIDI files are very compact, often only a few hundred bytes for a short loop.
+This one is pretty cool if I do say so myself! The 2HPico Grids drum machine is nice but has a fixed selection of 32 step drum patterns that it creates variations on. With SMF Drums you load MIDI drum loops to the onboard file system and it plays them back synced to the external clock input. MIDI files, drum samples, levels, and panning can be selected with the encoder and OLED display menu system. Loops can be as long as you want - the limitation is how much flash and RAM the RP2350 module has for storage. Fortunately MIDI files are very compact, often only a few hundred bytes for a short loop. By default up to 128 MIDI files can be stored but this can be increased fairly easily.
 
 Its quite easy to create new drum kits - process is the same as the 2HPico Grids drum machine but it will make usage a lot easier if you adhere to the naming conventions in the docs.
 
