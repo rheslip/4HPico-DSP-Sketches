@@ -3,6 +3,7 @@
 Arduino Pico sketches for the 4HPico DSP Eurorack module https://github.com/rheslip/2HPico-Eurorack-Module-Hardware
 
 May 6 2026 - added Reverb, Delay, Braids and SMF Drums sketches. see the usage comments at the top of each sketch
+July 2 2026 - added Chorus + Delay sketch which is a slightly modded version of the Delay sketch
 
 
 You must have Arduino 2.xx installed with the Pico board support package https://github.com/earlephilhower/arduino-pico
