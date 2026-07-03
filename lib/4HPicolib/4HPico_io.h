@@ -44,13 +44,19 @@
 #define ENCSW_IN 8
 
 // I2S pins for ADC and DAC
-#define MCLK 11
+#define MCLK 11   // only used on 4HPico DSP
 #define BCLK 12
 #define WS 13  // this will always be 1 pin above BCLK - can't change it
 #define I2S_DATA 14  // Out of Pico to DAC
 #define I2S_DATAIN 15  // into Pico from ADC
 
-#define CPU_USE 9 // unused GPIO shows core 1 processor usage
+// second DAC on 4HPico
+#define BCLK1 9
+#define WS1 10  // this will always be 1 pin above BCLK - can't change it
+#define I2S_DATA1 11  // Out of Pico to 2nd DAC
+
+
+#define CPU_USE 0 // unused GPIO shows core 1 processor usage
 
 // Gate/trigger digital inputs 
 #define TRIGGER 26  // analog input works as a digital input as long as input voltage is 4v or more
@@ -60,7 +66,7 @@
 #define AIN2 	28
 #define AIN3 	29 // not available on standard Pico board
 
-#define DISPLAY_BLANK_MS 60*1000  // display blanking time
+
 #define OLED_DISPLAY   // for graphics conditionals
 
 #define OLED_RESET -1        // Reset pin # (or -1 if sharing Arduino reset pin)
